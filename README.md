@@ -6,6 +6,7 @@ preprocessing과 modeling을 중점으로 진행하였다.
 ### preprocess.py
 preprocessing은 transformers 라이브러리의 BERTTokenizer와 Huggingface의 encode_plus 기능을 이용하여 토크나이징 하였다.
 > Huggingface의 Tokenizer(https://github.com/huggingface/tokenizers)
+
 encode_plus의 변환 순서는 아래와 같다
 1. 문장을 토크나이징
 2. add_special_tokens = True 이면 CLS와 SEP토큰을 붙임
